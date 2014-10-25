@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: virtual_disk - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "F:\TEMP\RSPD9CF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/virtual_disk.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Projects\virtual_disk\virtual_diskDlg.cpp"
+]
+Creating command line "cl.exe @F:\TEMP\RSPD9CF.tmp" 
+Creating temporary file "F:\TEMP\RSPD9D0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/virtual_disk.pdb" /debug /machine:I386 /out:"Debug/virtual_disk.exe" /pdbtype:sept 
+.\Debug\dlg_create_disk.obj
+.\Debug\dlg_create_folder.obj
+.\Debug\file_system.obj
+.\Debug\StdAfx.obj
+.\Debug\virtual_disk.obj
+.\Debug\virtual_diskDlg.obj
+.\Debug\virtual_disk.res
+]
+Creating command line "link.exe @F:\TEMP\RSPD9D0.tmp"
+<h3>Output Window</h3>
+Compiling...
+virtual_diskDlg.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/virtual_disk.bsc"  .\Debug\StdAfx.sbr .\Debug\dlg_create_disk.sbr .\Debug\dlg_create_folder.sbr .\Debug\file_system.sbr .\Debug\virtual_disk.sbr .\Debug\virtual_diskDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+virtual_disk.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
